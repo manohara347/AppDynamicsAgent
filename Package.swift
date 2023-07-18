@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "TestingNewSPM",
-                    url: "https://github.com/manohara347/TestingFramework/releases/download/1.0.0/ADEUMInstrumentation.xcframework.zip",
+                    url: "https://github.com/manohara347/TestingNewSPM/releases/download/1.0.0/ADEUMInstrumentation-1.0.0.xcframework.zip",
                     checksum: "633c29cd601e3cba0091fb889184ed3bfa314b175397ffb57eba938dd07b1067")
     ]
 )
