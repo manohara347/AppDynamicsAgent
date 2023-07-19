@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "AppDynamicsAgent",
-                    url: "https://github.com/manohara347/TestingNewSPM/releases/download/1.0.0/ADEUMInstrumentation-1.0.0.xcframework.zip",
-                    checksum: "a0728ca957cc36e92319522b2a1613b62579aa14c1726d8246b3f4b3fc188076")
+                    url: "https://artifactory.bare.appdynamics.com/ui/native/maven-releases/com/appdynamics/eum/mobile-ios/2023.5.0.3977/mobile-ios-2023.5.0.3977.zip",
+                    checksum: "45ace21501b371766654a22c7cc191209664399dcc514c79c49c7d6c6db335f0")
     ]
 )
