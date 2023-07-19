@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "TestingNewSPM",
+    name: "AppDynamicsAgent",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "TestingNewSPM",
-            targets: ["TestingNewSPM"]),
+            name: "AppDynamicsAgent",
+            targets: ["AppDynamicsAgent"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-                    name: "TestingNewSPM",
+                    name: "AppDynamicsAgent",
                     url: "https://github.com/manohara347/TestingNewSPM/releases/download/1.0.0/ADEUMInstrumentation-1.0.0.xcframework.zip",
                     checksum: "a0728ca957cc36e92319522b2a1613b62579aa14c1726d8246b3f4b3fc188076")
     ]
