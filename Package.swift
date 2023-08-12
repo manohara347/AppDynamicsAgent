@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "AppDynamicsAgent",
-                    url: "https://artifactory.bare.appdynamics.com/ui/native/maven-releases/com/appdynamics/eum/mobile-ios/2023.5.0.3977/mobile-ios-2023.5.0.3977.zip",
-                    checksum: "45ace21501b371766654a22c7cc191209664399dcc514c79c49c7d6c6db335f0")
+                    url: "https://cdn.appdynamics.com/eum-mobile/iOSAgent-2023.7.0.4175.zip",
+                    checksum: "567437214ed09aa7c6cf9e9fe500c88381d6a2c849bd95454e236b5951a4dd89")
     ]
 )
