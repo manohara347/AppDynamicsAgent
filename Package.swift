@@ -3,8 +3,14 @@
 
 import PackageDescription
 
+let url = "https://cdn.appdynamics.com/eum-mobile/iOSAgent-2023.7.0.4175.zip"
+let checksum = "b49ede8f76fc161b8aac92ecbf9de1f2a442ca3f94ed6d458beb54abf5b658e6"
+
 let package = Package(
     name: "AppDynamicsAgent",
+    platforms: [
+        .iOS(.v11)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -18,7 +24,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "AppDynamicsAgent",
-                    url: "https://cdn.appdynamics.com/eum-mobile/iOSAgent-2023.7.0.4175.zip",
-                    checksum: "b49ede8f76fc161b8aac92ecbf9de1f2a442ca3f94ed6d458beb54abf5b658e6")
+                    url: url,
+                    checksum: checksum)
     ]
 )
