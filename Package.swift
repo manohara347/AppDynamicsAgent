@@ -23,7 +23,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-                    name: "AppDynamicsAgent",
+                    name: "ADEUMInstrumentation",
                     url: url,
                     checksum: checksum)
     ]
