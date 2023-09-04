@@ -3,9 +3,8 @@
 
 import PackageDescription
 
-let url = "https://github.com/manohara347/TestingNewSPM/releases/download/1.0.0/ADEUMInstrumentation-1.0.0.xcframework.zip"
-let checksum = "a0728ca957cc36e92319522b2a1613b62579aa14c1726d8246b3f4b3fc188076"
-
+let url = "https://github.com/manohara347/AppDynamicsAgent/releases/download/1.0.16/ADEUMInstrumentation.xcframework.zip"
+let checksum = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 let package = Package(
     name: "AppDynamicsAgent",
     platforms: [
@@ -15,7 +14,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "AppDynamicsAgent",
-            targets: ["ADEUMInstrumentation-1.0.0"]),
+            targets: ["AppDynamicsAgent"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -23,7 +22,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-                    name: "ADEUMInstrumentation-1.0.0",
+                    name: "AppDynamicsAgent",
                     url: url,
                     checksum: checksum)
     ]
