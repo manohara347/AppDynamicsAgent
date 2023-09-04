@@ -4,7 +4,7 @@
 import PackageDescription
 
 let url = "https://github.com/manohara347/AppDynamicsAgent/releases/download/1.0.16/ADEUMInstrumentation.xcframework.zip"
-let checksum = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+let checksum = "2418cf72ee407e0ab2df676a86958354d97e22a5174a1e49a61bed13d6ef3d1f"
 let package = Package(
     name: "AppDynamicsAgent",
     platforms: [
