@@ -14,7 +14,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "AppDynamicsAgent",
-            targets: ["AppDynamicsAgent"]),
+            targets: ["ADEUMInstrumentation"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,7 +22,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-                    name: "AppDynamicsAgent",
+                    name: "ADEUMInstrumentation",
                     url: url,
                     checksum: checksum)
     ]
