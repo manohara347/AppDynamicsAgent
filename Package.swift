@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let url = "https://github.com/manohara347/AppDynamicsAgent/releases/download/1.0.16/ADEUMInstrumentation.xcframework.zip"
-let checksum = "2418cf72ee407e0ab2df676a86958354d97e22a5174a1e49a61bed13d6ef3d1f"
+let url = "https://cdn.appdynamics.com/eum-mobile/iOSAgent-2023.8.0.4197.zip"
+let checksum = "520fb6a6edafb331f7dd3c72c9b337e7ee84d63a9d396d924135c6e98b340f7a"
 let package = Package(
     name: "AppDynamicsAgent",
     platforms: [
