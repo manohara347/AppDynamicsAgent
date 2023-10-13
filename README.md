@@ -34,9 +34,9 @@ After you add the package, complete the following:
 2. Select the Build Phases tab.
 3. Expand the **Link Binary With Libraries** section.
 4. If any of the above libraries are not listed:
-  1. Click the + button.
-  2. Locate the missing library in the list.
-  3. Click **Add**. 
+  * Click the + button.
+  * Locate the missing library in the list.
+  * Click **Add**. 
 
 Repeat this step for each missing library.
 
