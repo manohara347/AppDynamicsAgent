@@ -14,7 +14,7 @@ An AppDynamics iOS SDK framework for monitoring the performance and activity of 
 
 Complete the following steps in your Xcode environment to add the AppDynamics iOS SDK package:
    1. Navigate to **File > Add Packages**.
-   2. In the search bar, specify the following GitHub URL: https://github.com/CiscoDevNet/AppDynamicsAgent.git
+   2. In the search bar, specify the following GitHub URL: ```https://github.com/CiscoDevNet/AppDynamicsAgent.git```
    3. Specify the version that you want to add.
    4. Click **Add Package**.
    5. Select the package and the target application.
