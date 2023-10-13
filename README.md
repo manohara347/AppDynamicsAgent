@@ -26,9 +26,9 @@ After you add the package, complete the following:
 
   ### The AppDynamics iOS Agent requires these libraries:
 
-    * SystemConfiguration.framework
-    * CoreTelephony.framework
-    * libz.dylib or .tbd
+    1. SystemConfiguration.framework
+    2. CoreTelephony.framework
+    3. libz.dylib or .tbd
   
   ### To add the libraries:
   
