@@ -29,27 +29,27 @@ After you add the package, complete the following:
 2. CoreTelephony.framework
 3. libz.dylib or .tbd
   
-  ### To add the libraries:
-    1. Select the target that builds your app in Xcode.
-    2. Select the Build Phases tab.
-    3. Expand the **Link Binary With Libraries** section.
-    4. If any of the above libraries are not listed:
-       1. Click the + button.
-       2. Locate the missing library in the list.
-       3. Click **Add**. 
+### To add the libraries:
+1. Select the target that builds your app in Xcode.
+2. Select the Build Phases tab.
+3. Expand the **Link Binary With Libraries** section.
+4. If any of the above libraries are not listed:
+    1. Click the + button.
+    2. Locate the missing library in the list.
+    3. Click **Add**. 
 
-  Repeat this step for each missing library.
+Repeat this step for each missing library.
 
 ### Set the -ObjC Flag
 
-  You also need to add the -ObjC flag to Other Linker Flags.  
+You also need to add the -ObjC flag to Other Linker Flags.  
   
-    1. Select your project in the **Project Navigator**.
-    2. In the target list, select the target that builds your application.
-    3. Select the Build Settings tab.
-    4. Scroll to **Linking** and open.
-    5. Go to **Other Linker Flags** and double-click to open the popup. 
-    6. If the **-ObjC** flag is not in your list, click + and add it.  
+1. Select your project in the **Project Navigator**.
+2. In the target list, select the target that builds your application.
+3. Select the Build Settings tab.
+4. Scroll to **Linking** and open.
+5. Go to **Other Linker Flags** and double-click to open the popup. 
+6. If the **-ObjC** flag is not in your list, click + and add it.  
 
 # Documentation
 
