@@ -43,6 +43,7 @@ After you add the package, complete the following:
 ### Set the -ObjC Flag
 
   You also need to add the -ObjC flag to Other Linker Flags.  
+  
     1. Select your project in the **Project Navigator**.
     2. In the target list, select the target that builds your application.
     3. Select the Build Settings tab.
