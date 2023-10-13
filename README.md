@@ -5,7 +5,7 @@ An AppDynamics iOS SDK framework for monitoring the performance and activity of 
 ⚠️ | This project contains a single manifest file (Package.swift), and there are no future plans to include any source code. As such, it is unlikely that we will be accepting contributions to the project, as its primary purpose is for binary distribution.
 
 
-# Swift Package Manager Install
+## Swift Package Manager Install
 
 **SDK Install Requirements**
 
@@ -51,7 +51,7 @@ You also need to add the -ObjC flag to Other Linker Flags.
 5. Go to **Other Linker Flags** and double-click to open the popup. 
 6. If the **-ObjC** flag is not in your list, click + and add it.  
 
-# Documentation
+## Documentation
 
 For a more detailed description of how to incorporating and utilizing the SDK, or for
 troubleshooting information, please see the
